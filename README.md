@@ -1,2 +1,3 @@
 # seleniumProjekt
-projekt to setup a page object based test framework
+Pojekt to setup a page object based test framework.
+The project will be based on TestNG.
