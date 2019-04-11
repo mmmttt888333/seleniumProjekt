@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FirstSuite" verbose="10" parallel="tests" thread-count="3">
+	<test name="Ecosia Search Test - Firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.automationapproach.EcosiaSearchTest">
+				<methods>
+					<include name="ecosiaSearchTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Ecosia Search Test - Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.automationapproach.EcosiaSearchTest">
+				<methods>
+					<include name="ecosiaSearchTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

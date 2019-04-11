@@ -1,1 +1,28 @@
+# eclipse stuff
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.classpath
 .project
+temp_for_tryings.xml
+tryings.java
+
+# custom
+test-output/
+
+# maven
+target/
+
+# logs
+phantomjsdriver.log
+
+# Custom config file
+config.xml
